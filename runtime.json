@@ -1,0 +1,61 @@
+{
+  "id": "sonic-g1-development-v1",
+  "entrypoint": "adapter:create",
+  "control_period_s": 0.02,
+  "reference_step_s": 0.02,
+  "reference_steps": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45
+  ],
+  "reference_offsets_s": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "reference_history_s": 0,
+  "reference_preview_s": 0.9,
+  "state_access": "privileged-state-v0",
+  "action_mode": "joint-pd-feedforward",
+  "inference_config": "policy.json",
+  "inference_config_sha256": "901cf0f0af7c81f80eaa012d29d5ec0367778ec1f7be4b22e66e8571305070cb",
+  "weights": "checkpoints/policy.onnx",
+  "weights_sha256": "3e1914f136a0a85e91d42fa0531ffbfdd2f5999f7019a01bfdb9ff8788992070",
+  "virtual_bodies": {
+    "left_toe_link": {
+      "parent": "left_ankle_roll_link",
+      "position_parent_m": [
+        0.1,
+        0.0,
+        -0.02
+      ]
+    },
+    "right_toe_link": {
+      "parent": "right_ankle_roll_link",
+      "position_parent_m": [
+        0.1,
+        0.0,
+        -0.02
+      ]
+    }
+  },
+  "provenance_status": "author-inference review in progress",
+  "official": false,
+  "source_repository": "https://github.com/NVlabs/GR00T-WholeBodyControl",
+  "source_commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+  "weights_url": "https://drive.usercontent.google.com/download?id=1dRMw3SUUXPr4yFI0e8fcO9xGlVKtQxZI&export=download"
+}

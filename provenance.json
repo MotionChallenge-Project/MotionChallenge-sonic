@@ -1,0 +1,12 @@
+{
+  "model": "sonic",
+  "submitter": "Motion Challenge",
+  "submission_type": "maintainer reproduction, not author submission",
+  "upstream": "https://github.com/NVlabs/GR00T-WholeBodyControl",
+  "source_commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+  "checkpoint_sha256": "3e1914f136a0a85e91d42fa0531ffbfdd2f5999f7019a01bfdb9ff8788992070",
+  "author_inference_review": "pending",
+  "benchmark_physics": "shared G1 canonical profile, not the author training simulator",
+  "legacy_results": "not transferable to this adapter revision without rerunning",
+  "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms"
+}
