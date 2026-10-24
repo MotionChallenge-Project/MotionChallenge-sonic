@@ -29,7 +29,7 @@
   ],
   "reference_history_s": 0,
   "reference_preview_s": 0.9,
-  "state_access": "privileged-state-v0",
+  "state_access": "ideal-proprioceptive-no-position-v1",
   "action_mode": "joint-pd-feedforward",
   "inference_config": "policy.json",
   "inference_config_sha256": "901cf0f0af7c81f80eaa012d29d5ec0367778ec1f7be4b22e66e8571305070cb",
@@ -57,5 +57,9 @@
   "official": false,
   "source_repository": "https://github.com/NVlabs/GR00T-WholeBodyControl",
   "source_commit": "45c03facbf848e0c743091b7d9c17952096ff908",
-  "weights_url": "https://drive.usercontent.google.com/download?id=1dRMw3SUUXPr4yFI0e8fcO9xGlVKtQxZI&export=download"
+  "weights_url": "https://drive.usercontent.google.com/download?id=1dRMw3SUUXPr4yFI0e8fcO9xGlVKtQxZI&export=download",
+  "observation_contract": {
+    "admission_record": "admission.json",
+    "admission_sha256": "416df849cd1fbbfc82b17d76b023bc8b095fb4bf6db147409c415da869d59146"
+  }
 }
