@@ -5,7 +5,7 @@
 ## Install and run
 
 ```sh
-git clone --recurse-submodules https://github.com/motion-challenge-project/motion-challenge-sonic.git
+git clone --recurse-submodules https://github.com/MotionChallenge-Project/motion-challenge-sonic.git
 cd motion-challenge-sonic
 uv sync
 uv run evaluate.py
