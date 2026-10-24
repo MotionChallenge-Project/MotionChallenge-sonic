@@ -1,12 +1,12 @@
-# Motion Challenge · sonic
+# MotionChallenge · sonic
 
 [sonic](https://github.com/NVlabs/GR00T-WholeBodyControl) checkpoint adapter. G1 29DoF; LAFAN40 is the first suite.
 
 ## Install and run
 
 ```sh
-git clone --recurse-submodules https://github.com/MotionChallenge-Project/motion-challenge-sonic.git
-cd motion-challenge-sonic
+git clone --recurse-submodules https://github.com/MotionChallenge-Project/MotionChallenge-sonic.git
+cd MotionChallenge-sonic
 uv sync
 uv run evaluate.py
 ```
